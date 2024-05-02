@@ -1,38 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <style>
-    *{font-family: sans-serif,Arial, Helvetica;}
+    *{font-family: "Montserrat", sans-serif;}
     body{
-        background-color: #EEEEEE;
+        background-color:#efe7da;
       }
+    ul {
+        list-style-type:disc;
+        color: #383436;
+        }
+
       h1{
         color: #222831;
         font-weight: bold;
       }
+      hr{
+        clear: left;
+        }
       h2{
-        color: #31363f;
-        background-color:#C58940 ;
+        color: #5A5757;
       }
       h3{
-        color:#76ABAE ;
+        color:#3d281c;
       }
       h4{
-        color:#35374B;
+        color:#383436;
         font-weight: bold;
+      }
+      img{
+        border-radius: 50%;
+        margin: 30px;
+        float: left;
+      }
+      .hr-lines{
+        position: relative;
+        max-width: 600px;
+        margin: 50px auto;
+        text-align: center;
+      }
+      .hr-lines:before{
+        content:" ";
+        height: 2px;
+        width: 230px;
+        background: #3d281c;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 0;
+      }
+      .hr-lines:after{
+        content:" ";
+        height: 2px;
+        width: 230px;
+        background: #3d281c;
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 0;
       }
 </style>
 </head>
-
-<h3>Hobbies</h3>
+<h3 class="hr-lines">Hobbies</h3>
 <ul>
-    <li>family & friends</li>
-    <li>music & movies </li>
-    <li>travelling</li>
-    <li>sport</li>
-    <li><a href="https://ask5470.github.io/30DaysChallange/"> My challenge </a></li>
+    <li>Family & Friends</li>
+    <li>Music</li>
+    <li>Travelling</li>
+    <li>Sports</li>
+    <li>Web Design<a href="https://ask5470.github.io/30DaysChallange/"> My challenge </a></li>
+    <li>The biggest fan of my kids</li>
+    <br>
+    <video width="270" height="320" controls>
+      <source src="./Pict/BasketballSeason.MOV">Video creator</li>
+  
 </ul>
+<hr/>
+
+<a href="./index.html">Back to Resume</a><br>
+<footer>
+  <p>© 2024 Simmons - All Rights Reserved</p>
+</footer>
 </html>
